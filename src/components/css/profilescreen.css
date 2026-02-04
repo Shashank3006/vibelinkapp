@@ -1,0 +1,406 @@
+
+/* Import Material Icons */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+.profile-container {
+  min-height: 100vh;
+  background-color: #0a0a0c;
+  color: white;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.profile-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.profile-header {
+  padding: 24px;
+  text-align: center;
+  background: linear-gradient(180deg, #0a0a0c 0%, #141417 100%);
+  border-radius: 0 0 24px 24px;
+}
+
+.profile-info {
+  margin-bottom: 24px;
+}
+
+.avatar-container {
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #1d1d21;
+  border: 3px solid #7a48e5;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 4px;
+  letter-spacing: -0.5px;
+}
+
+.profile-role {
+  font-size: 14px;
+  color: #8a8a93;
+  margin-bottom: 24px;
+}
+
+/* Stats Container */
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.stat-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #8a8a93;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 40px;
+  background-color: #1d1d21;
+  margin: 0 16px;
+}
+
+/* Edit Profile Button */
+.edit-profile-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #7a48e5, #8b5cf6);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+
+.edit-profile-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(122, 72, 229, 0.3);
+}
+
+.edit-icon {
+  font-size: 20px;
+}
+
+/* Content Sections */
+.profile-sections {
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 32px;
+  background-color: #141417;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.about-text {
+  font-size: 14px;
+  color: #8a8a93;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* Skills Container */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background-color: #1d1d21;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(122, 72, 229, 0.3);
+  color: #7a48e5;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background-color: rgba(122, 72, 229, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Menu Section */
+.menu-section {
+  background-color: #1d1d21;
+  border-radius: 16px;
+  margin-top: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #141417;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.menu-item-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #141417;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.menu-icon .material-symbols-outlined {
+  font-size: 20px;
+  color: #8a8a93;
+}
+
+.menu-text {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Logout Item Styles */
+.logout-item:hover {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.logout-icon {
+  background-color: rgba(239, 68, 68, 0.2);
+}
+
+.logout-icon .material-symbols-outlined {
+  color: #ef4444;
+}
+
+.logout-text {
+  color: #ef4444;
+}
+
+.logout-arrow {
+  color: #8a8a93;
+}
+
+/* Material Icons Sizing */
+.material-symbols-outlined {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover .material-symbols-outlined {
+  transform: translateX(4px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-content {
+    padding: 12px;
+  }
+  
+  .profile-header {
+    padding: 20px 16px;
+  }
+  
+  .stats-container {
+    max-width: 100%;
+  }
+  
+  .stat-divider {
+    margin: 0 12px;
+  }
+  
+  .stat-number {
+    font-size: 18px;
+  }
+  
+  .stat-label {
+    font-size: 11px;
+  }
+  
+  .section {
+    padding: 16px;
+  }
+  
+  .menu-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+  }
+  
+  .stats-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .stat-divider {
+    width: 100%;
+    height: 1px;
+    margin: 8px 0;
+  }
+  
+  .stat-item {
+    width: 100%;
+  }
+  
+  .edit-profile-button {
+    width: 100%;
+    padding: 10px 16px;
+  }
+}
+
+/* Animation for avatar hover */
+.avatar {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(122, 72, 229, 0.4);
+}
+
+/* Skills hover effect */
+.skill-tag {
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-tag::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(122, 72, 229, 0.2), transparent);
+  transition: left 0.6s ease;
+}
+
+.skill-tag:hover::after {
+  left: 100%;
+}
+
+/* Menu item animation */
+.menu-item {
+  position: relative;
+}
+
+.menu-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #7a48e5;
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover::before {
+  transform: scaleY(1);
+}
+
+/* Scrollbar styling for web */
+.profile-sections::-webkit-scrollbar {
+  width: 6px;
+}
+
+.profile-sections::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.profile-sections::-webkit-scrollbar-thumb {
+  background: #7a48e5;
+  border-radius: 3px;
+}
+
+.profile-sections::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
